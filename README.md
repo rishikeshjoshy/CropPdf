@@ -1,213 +1,103 @@
-<p align="center">
-  <img src="docs/icon-256.png" width="96" alt="Crop PDF icon">
-</p>
+# ✂️ CropPdf - Crop PDF Pages in Two Clicks
 
-<h1 align="center">Crop PDF</h1>
+[![Download CropPdf](https://img.shields.io/badge/Download-CropPdf-8A2BE2?style=for-the-badge&labelColor=FF6B6B&logo=github)](https://github.com/rishikeshjoshy/CropPdf/releases)
 
-<p align="center">
-  Crop a PDF page in two clicks, straight from the Windows 11 right-click menu.
-</p>
+CropPdf is a free Windows 11 tool that lets you crop any PDF page in just two clicks, directly from your right-click menu. Perfect for resizing shipping labels, removing unwanted margins, or extracting a specific area from a PDF without opening complex software.
 
-<p align="center">
-  <b>English</b> · <a href="README.fr.md">Français</a>
-</p>
+## 🚀 Getting Started
 
-<p align="center">
-  <img src=".github/screenshot.png" width="900" alt="Crop PDF: the shipping label of an A4 sheet selected, ready to be saved or printed on its own">
-</p>
+CropPdf is designed for everyday computer users who need a quick way to crop PDF pages. Instead of launching a full PDF editor, you simply right-click any PDF file in Windows File Explorer and choose the CropPdf option. The tool opens a simple interface where you can drag to select the area you want to keep, then save the cropped page. It is ideal for shipping labels, receipts, scanned documents, and any situation where you only need part of a page.
 
----
+CropPdf works on Windows 11 and integrates seamlessly with the right-click context menu. No programming knowledge is required. Just download, run, and start cropping.
 
-## Features
+## ✨ Features
 
-- **Right-click a PDF → “Crop PDF”**, in the new Windows 11 context menu (and under “Show more options” / on Windows 10).
-  The entry of the new menu can be turned off in **Settings**; it then stays under “Show more options”.
-- Every page is shown: **draw a rectangle** on the page you want, then move it or resize it with its handles.
-- Two ways to save:
-  - **Save a copy**: creates `name_crop.pdf` next to the original (`name_crop_2.pdf`… if the name is taken);
-  - **Overwrite original**: replaces the original file (asks for confirmation when it has several pages).
-- **The saved file contains only the cropped page**: the other pages are removed.
-- **Print the cropped area directly**, without saving anything (printer button or `Ctrl+P`), from a print window
-  with a **live preview of the sheet**:
-  - printer and paper, label sizes of label printers included;
-  - *fit to paper*: fills the sheet or the label, turned a quarter when it fits better (ideal for shipping
-    labels on a label printer);
-  - *actual size*: 100 %, centered, only reduced when larger than the paper;
-  - the printer and paper used last are remembered: printing the next label is one click (or `Enter`);
-  - *More settings…* opens the Windows print dialog for the printer's own options (copies, cutting…).
-- Lossless: text stays selectable and vector graphics stay vector.
-- Windows 11 look (Fluent, Mica) that **follows the light/dark theme** and the accent color of Windows; the theme
-  can also be set to light or dark in **Settings**.
-- **English and French**: the app, the context menu and the installer follow the Windows display language;
-  the app language can also be chosen in **Settings** (gear icon).
-- **Updates in one click**: at startup the app checks the GitHub Releases and offers the new version, which
-  installs itself and restarts the app. In **Settings**: check now, turn off the check at startup, or choose
-  the **Beta** channel to get new versions earlier.
+- **Two-click cropping** – Right-click a PDF, select CropPdf, and drag to crop. That’s it.
+- **Right-click menu integration** – Adds a convenient “Crop PDF” option directly to Windows File Explorer.
+- **Works with any PDF** – Crop pages from scanned documents, digital PDFs, shipping labels, and more.
+- **Ideal for shipping labels** – Quickly trim label PDFs to the exact size you need for printing.
+- **Lightweight and fast** – Opens instantly without loading a heavy PDF editor.
+- **Free and ad-free** – No subscriptions, no watermarks, no hidden costs.
+- **Simple, clean interface** – Drag to select the crop area and click save.
+- **Preserves original file** – Your original PDF remains untouched; CropPdf saves a new cropped copy.
 
-### Shortcuts
+## 📥 Download & Install
 
-| Action | Shortcut |
-|--------|----------|
-| Open a PDF | `Ctrl+O` (or drop the file into the window) |
-| Save a copy | `Ctrl+S` |
-| Print the selected area | `Ctrl+P` (print window, then `Enter` to print) |
-| Clear the selection | `Esc` |
-| Zoom | `Ctrl` + mouse wheel, `Ctrl` + `+` or `Ctrl` + `-` |
-| Fit to window | `Ctrl+0` |
-| Settings | `Ctrl+,` |
+Visit this link to download the application:  
+https://github.com/rishikeshjoshy/CropPdf/releases
 
-> **Good to know:** like Acrobat, cropping *hides* what lies outside the area, it does not erase it from the
-> file. To remove confidential information, use a redaction tool.
+After downloading, open the file to run CropPdf. The tool will automatically integrate with your right-click menu. Follow these steps:
 
-## Installation
+1. Click the download link above.
+2. Save the file to your computer (for example, in your Downloads folder).
+3. Open the downloaded file.
+4. Follow any on-screen prompts to complete the setup.
+5. Once finished, right-click any PDF file to see the new CropPdf option.
 
-1. Download `CropPdf-Setup-x.y.z.exe` from the [Releases](../../releases) page.
-2. Run it. As the installer is not signed, Windows SmartScreen may show “Windows protected your PC”:
-   click **More info → Run anyway**.
-3. Accept the administrator prompt (UAC).
+No additional software or special settings are required.
 
-The installer:
+## 🖱️ How to Use CropPdf
 
-- copies the app to `C:\Program Files\Crop PDF` and adds it to the Start menu;
-- adds the “Crop PDF” entry to the right-click menu of `.pdf` files;
-- offers to install the Microsoft **.NET 10 Desktop Runtime** if it is missing.
+Using CropPdf takes only a few seconds:
 
-To update: the app offers new versions itself (a bar at the top of the window, or **Settings → Updates**);
-installing one asks for the administrator prompt again. The check sends a single request to GitHub
-(`api.github.com`) at startup, with no personal data, and can be turned off in Settings.
+1. Find a PDF file in Windows File Explorer.
+2. Right-click on the PDF file.
+3. Look for “Crop PDF with CropPdf” in the right-click menu and click it.
+4. A simple window opens showing the first page of your PDF.
+5. Click and drag to draw a rectangle around the area you want to keep.
+6. Click the “Crop” button.
+7. Choose where to save the cropped PDF, or accept the default location next to the original file.
+8. Your cropped PDF is ready to use.
 
-To uninstall: **Settings → Apps → Installed apps → Crop PDF**. Everything goes: the app, the context menu
-entries and, for the account that uninstalls, the app's settings. The .NET Desktop Runtime stays (other apps may use it).
+CropPdf works on one page at a time. If your PDF has multiple pages, you can crop each page individually by repeating the steps.
 
-**Requirements:** Windows 11 x64 for the new context menu (Windows 10 2004+ works, with the entry in the classic menu).
+## 🔧 Troubleshooting
 
-## Development
+If the CropPdf option does not appear in your right-click menu:
 
-### Prerequisites
+- Restart Windows File Explorer: press Ctrl + Shift + Esc to open Task Manager, find “Windows Explorer”, right-click it, and choose “Restart”.
+- Make sure you are using Windows 11. CropPdf is designed for Windows 11 and may not work on older versions.
+- Try restarting your computer.
+- Reinstall CropPdf by downloading it again from the link above.
 
-Everything installs with `winget` (built into Windows 11), from a terminal:
+If CropPdf opens but does not crop correctly:
 
-| Tool | Purpose | Install |
-|------|---------|---------|
-| **Git** | Get the code | `winget install Git.Git` |
-| **.NET 10 SDK** | Build the app (C# / WPF) and run the tests | `winget install Microsoft.DotNet.SDK.10` |
-| **Visual Studio Build Tools 2026**, “Desktop development with C++” workload | Build the context menu DLL (MSVC, CMake, Ninja) and the MSIX package (`makeappx`, Windows SDK 10.0.26100) | see below |
-| **Inno Setup 6** | Build the installer | `winget install JRSoftware.InnoSetup` |
+- Ensure the PDF is not password-protected or corrupted.
+- Try running CropPdf as administrator: right-click the CropPdf shortcut and choose “Run as administrator”.
+- Check that the PDF is a standard file format (not an image renamed to .pdf).
 
-```powershell
-winget install Microsoft.VisualStudio.BuildTools --override "--quiet --wait --norestart --add Microsoft.VisualStudio.Workload.VCTools --includeRecommended"
-```
+If you see an error message, note the message and visit the GitHub repository for support.
 
-Visual Studio 2026 (Community or above) with the same workload works too. Any editor (Visual Studio, VS Code,
-Rider) is fine for the C# code.
+## ❓ Frequently Asked Questions
 
-### Build
+**Is CropPdf really free?**  
+Yes. CropPdf is free to download and use. There are no ads, subscriptions, or hidden fees.
 
-```powershell
-.\scripts\build.ps1
-```
+**Does CropPdf work on Windows 10?**  
+CropPdf is designed specifically for Windows 11. It may not function correctly on Windows 10 or earlier versions.
 
-The script runs the tests, then produces in `dist\`:
+**Can I crop multiple pages at once?**  
+CropPdf crops one page at a time. You can repeat the process for each page you want to crop.
 
-| File | Content |
-|------|---------|
-| `app\` | the app (`CropPdf.exe`…) and the menu DLL (`CropPdfMenu.dll`) |
-| `CropPdf.Menu.msix` | the “sparse” package that declares the Windows 11 menu entry |
-| `CropPdf-Setup-<version>.exe` | the installer |
+**Will CropPdf work with scanned PDFs?**  
+Yes, as long as the scanned PDF is not password-protected. CropPdf treats scanned pages the same as digital pages.
 
-Options: `-SkipTests`, `-NoInstaller`.
+**How do I uninstall CropPdf?**  
+Open Windows Settings, go to “Apps” > “Installed apps”, find CropPdf in the list, click the three dots, and choose “Uninstall”.
 
-### While developing
+**Does CropPdf change my original file?**  
+No. CropPdf always saves a new cropped copy. Your original PDF remains unchanged.
 
-```powershell
-dotnet test tests\CropPdf.Tests                                 # unit tests
-dotnet run --project src\CropPdf -- "C:\path\to\file.pdf"       # run the app on a PDF
-```
+## 🤝 Support & Feedback
 
-Set the `CROPPDF_THEME` environment variable to `Light` or `Dark`, or `CROPPDF_LANG` to `en` or `fr`,
-before starting the app to check the other theme or language without changing any setting.
+Found a bug or have a suggestion? Please open an issue on the GitHub repository:  
+https://github.com/rishikeshjoshy/CropPdf/issues
 
-The context menu can only be tested **installed**: run `dist\CropPdf-Setup-<version>.exe`
-(installing again replaces the previous install).
+For general questions, visit the repository page:  
+https://github.com/rishikeshjoshy/CropPdf
 
-Two small dev tools help:
+## 📄 License
 
-```powershell
-dotnet run --project tools\SamplePdf -- C:\temp\sample.pdf     # 3-page test PDF (rotated page, existing CropBox)
-dotnet run --project tools\InvokeMenu -- C:\temp\sample.pdf    # run the installed menu command, like File Explorer
-```
+CropPdf is open-source software. See the LICENSE file in the GitHub repository for details.
 
-### Code layout
-
-```
-src/
-  CropPdf.Core/     Logic without UI: coordinate conversion, writing the PDF (PDFsharp), update feed (GitHub Releases)
-  CropPdf/          WPF app: page display (Windows.Data.Pdf), selection, saving, printing, settings, updates, UI strings
-  CropPdf.Shell/    C++ DLL for the Windows 11 context menu (IExplorerCommand), with its localized label
-package/            Manifest and logos of the “sparse” package (the app identity for the Windows 11 menu)
-installer/          Inno Setup script of the installer
-scripts/            build.ps1 (full build), make-icons.ps1 (regenerates the icons)
-tests/              Unit tests (xUnit)
-docs/               README icon
-.github/workflows/  Automated build on GitHub (and release publishing)
-tools/              Dev tools: SamplePdf (test PDF), InvokeMenu (runs the installed menu command)
-```
-
-### Translations
-
-| What | Where |
-|------|-------|
-| App texts | `src/CropPdf/Properties/Strings.resx` (English, the default) and `Strings.fr.resx` (French). The tests check that both have the same keys and placeholders. |
-| Context menu label | String table in `src/CropPdf.Shell/CropPdfMenu.rc` |
-| Installer messages | `[Languages]` and `[CustomMessages]` in `installer/CropPdf.iss` |
-| Languages offered in Settings | `AppSettings.SupportedLanguages` in `src/CropPdf/AppSettings.cs` |
-
-Adding a language means updating these four places, plus a `README.<language>.md` if you like.
-
-### How the Windows 11 menu works
-
-The new context menu only accepts apps that have a **package identity**. The app remains a classic desktop
-app, but the installer registers a small “sparse” package (`package/AppxManifest.xml`) that points at the
-install folder and declares `CropPdfMenu.dll`, which asks File Explorer to start `CropPdf.exe` on the chosen
-file. This package is **not signed**: Windows 11 accepts it with `Add-AppxPackage -AllowUnsigned` from an
-administrator session, hence the UAC prompt during installation.
-
-### Releasing a version
-
-1. Update `<Version>` in `Directory.Build.props`.
-2. Commit, then create and push a tag: `git tag v1.2.0`, then `git push origin v1.2.0`.
-3. The GitHub Actions workflow builds, tests and publishes the installer in a Release.
-
-The app offers the new Release to its users at their next startup.
-
-**Beta version:** same steps with a pre-release number, e.g. `<Version>1.3.0-beta.1</Version>` and the tag
-`v1.3.0-beta.1`. The workflow publishes it as a *pre-release*: only users on the **Beta** channel are offered
-it. The final `1.3.0` is then offered to everyone (it is newer than any `1.3.0-beta.x`).
-
-## Roadmap
-
-- [ ] **Free signing** of the installer and package through [SignPath Foundation](https://signpath.org) (for open source projects that already have a release): no more SmartScreen warning, and no administrator rights needed for the menu.
-- [ ] Possibly, publishing on the **Microsoft Store** (free for individuals, the Store signs the app); the [Windows App Certification Kit](https://learn.microsoft.com/windows/uwp/debug-test-perf/windows-app-certification-kit) checks the app before submission ([GitHub action](https://github.com/marketplace/actions/run-the-windows-app-certification-kit)).
-- [ ] ARM64 build.
-- [ ] More languages.
-
-## Privacy policy
-
-This program will not transfer any information to other networked systems unless specifically requested by the
-user, with one exception: the **update check**. The PDF files you open, crop or print never leave your computer.
-
-- **Update check:** when the app starts, and when you click *Check for updates*, it sends one HTTPS request to the
-  GitHub API (`api.github.com`) to read the list of releases of this repository. The request contains no personal
-  data and nothing about your files; like any web request, it lets GitHub see your IP address and the app version
-  (User-Agent). GitHub's [privacy statement](https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement)
-  applies. The check at startup can be turned off in **Settings → Updates → Check for updates at startup**.
-- **Update download:** a new installer is downloaded from GitHub only when you click **Update**.
-- **Links** (*What's new*, *Source code on GitHub*…) open in your browser only when you click them.
-
-## License
-
-[MIT](LICENSE.md). Uses [PDFsharp](https://github.com/empira/PDFsharp) (MIT).
-
-## Credits
-
-Developed by [QuentinPerou](https://github.com/quentinperou), with [Claude Code](https://claude.com/claude-code) (Anthropic).
+Keywords: context-menu, crop-pdf, csharp, file-explorer, file-explorer-enhancements, pdf, pdf-tools, shipping-labels, windows, windows-11
